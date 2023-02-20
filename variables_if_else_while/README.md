@@ -1,0 +1,1 @@
+These are the solutions to variables if else why
