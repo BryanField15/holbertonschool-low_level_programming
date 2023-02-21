@@ -16,7 +16,7 @@ int main(void)
 			i = i + 1;
 		}
 		ch = 'a';
-		while (ch <= 'g')
+		while (ch <= 'f')
 		{
 			putchar(ch);
 			ch = ch + 1;
