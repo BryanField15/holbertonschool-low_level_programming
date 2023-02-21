@@ -9,10 +9,18 @@ int main(void)
 {
 	char ch;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-		putchar(ch);
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
-		putchar(ch);
+	ch = 'a';
+		while (ch <= 'z')
+		{
+			printf("%c", ch);
+			ch = ch + 1;
+		}
+	ch = 'A';
+		while (ch <= 'Z')
+		{
+			printf("%c", ch);
+			ch = ch + 1;
+		}
 	putchar('\n');
 	return (0);
 }
