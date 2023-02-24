@@ -18,7 +18,6 @@ void jack_bauer(void)
 		{
 			if (hours_tens == 2 && hours_ones == 4)
 				return;
-			
 			mins_tens = 0;
 			while (mins_tens <= 5)
 			{
