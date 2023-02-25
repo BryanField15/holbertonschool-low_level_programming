@@ -2,6 +2,9 @@
 
 /**
  *print_diagonal -takes int n and prints a diagonal line of length n
+ *@n: int n inputed
+ *@r: row
+ *@c: column
  */
 
 void print_diagonal(int n)
