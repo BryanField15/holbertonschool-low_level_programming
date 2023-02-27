@@ -1,0 +1,1 @@
+Solution for pointers arrays and strings
