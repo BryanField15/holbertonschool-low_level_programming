@@ -32,7 +32,7 @@ void rev_string(char *s)
 	len = _strlen(s) - 1; /* gets array size sans '\0' */
 	n = 0; /* sets index to start of array */
 
-	while (n < (len / 2)) /* swap out first half; < not <= to acc 4 odd# */
+	while (n <= (len / 2)) /* swap out first half; < not <= to acc 4 odd# */
 	{
 		h = s[n];
 		s[n] = s[len - n];
