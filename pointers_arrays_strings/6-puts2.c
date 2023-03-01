@@ -32,7 +32,7 @@ void puts2(char *str)
 	len = _strlen(str);
 	n = 0;
 
-	while (n <= len)
+	while (n < len)
 	{
 		_putchar(str[n]);
 		n = n + 2;
