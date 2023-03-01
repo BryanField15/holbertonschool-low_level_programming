@@ -29,7 +29,7 @@ void puts2(char *str)
 	int len;
 	int n;
 
-	len = _strlen(str) - 1;
+	len = _strlen(str);
 	n = 0;
 
 	while (n <= len)
