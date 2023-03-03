@@ -27,10 +27,10 @@ char *_strncpy(char *dest, char *src, int n)
 		i = i + 1;
 	}
 
-	while (i < n)
+	while (i < n && dest[i] != '\0')
 	{
-		i = i + 1;
 		dest[i] = '\0';
+		i = i + 1;
 	}
 	return (p);
 }
