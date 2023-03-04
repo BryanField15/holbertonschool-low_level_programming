@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *cap_string - capitalizes the first letter of each word in a string
@@ -21,8 +22,8 @@ char *cap_string(char *str)
 			{
 				str[i] = str[i] - 32;
 			}
-			i = i + 1;
 		}
+		i = i + 1;
 	}
 	return (str);
 }
