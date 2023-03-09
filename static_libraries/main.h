@@ -1,3 +1,7 @@
+#ifndef MAIN_H
+#define MAIN_H
+// rest of main.h code
+#endif
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
