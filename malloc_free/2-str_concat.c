@@ -58,6 +58,10 @@ char *str_concat(char *s1, char *s2)
 
 	while (s2[j] != '\0')
 	{
+		if (dup == NULL)
+		{
+			return (NULL);
+		}
 		dup[k] = s2[j];
 		k = k + 1;
 		j = j + 1;
