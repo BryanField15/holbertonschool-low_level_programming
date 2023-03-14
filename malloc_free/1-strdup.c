@@ -35,7 +35,7 @@ char *_strdup(char *str)
 	{
 		if (dup == NULL)
 		{
-			return NULL;
+			return (NULL);
 		}
 		dup[j] = s[i];
 		i = i + 1;
