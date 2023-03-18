@@ -15,21 +15,21 @@ int *array_range(int min, int max)
 	int i;
 	int diff;
 
-	if (min > max || min == max)
+	if (min > max)
 	{
 		return (NULL);
 	}
 
-	diff = max - min;
+	diff = max - min + 1;
 
-	ptr = malloc(sizeof(*ptr) * (diff) + 1);
+	ptr = malloc(sizeof(*ptr) * (diff));
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
 
 	i = 0;
-	while (i <= max)
+	while (i <= diff)
 	{
 		ptr[i] = i + min;
 		i = i + 1;
