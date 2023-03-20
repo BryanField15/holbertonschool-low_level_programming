@@ -1,4 +1,4 @@
-#ifndef _STDDEF_
+#ifndef _STDDEF_H_
 #include <stddef.h>
 #endif /* _STDDEF_ */
 
