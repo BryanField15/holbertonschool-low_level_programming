@@ -8,8 +8,6 @@
  *get_op_func - selects the correct function to perform the operation \
  *asked for by the user
  *@s: the operator passed as argument to the program
- *@int: int 1
- *@int: int 2
  *Return: correct answer
  */
 
