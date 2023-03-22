@@ -23,7 +23,7 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	long unsigned int i;
+	int i;
 
 	i = 0;
 	while (ops[i].op != NULL)
@@ -35,5 +35,5 @@ int (*get_op_func(char *s))(int, int)
 		i = i + 1;
 	}
 	printf("Error\n");
-	exit (99);
+	exit(99);
 }
