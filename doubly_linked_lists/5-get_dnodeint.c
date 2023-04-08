@@ -22,6 +22,10 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 
 	while (position < index)
 	{
+		if (nth_node == NULL)
+		{
+			return (NULL);
+		}
 		position  = position + 1;
 		nth_node = nth_node->next;
 	}
