@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * _free_dlist - Free a list
+ * _free_dlistint - Free a list
  *
- * @list: A pointer to the first element of a list to free
+ * @head: A pointer to the first element of a list to free
  */
 void free_dlistint(dlistint_t *head)
 {
