@@ -1,2 +1,1 @@
-# holbertonschool-low_level_programming
-Start of C programming
+Sooution for C - File I/O
