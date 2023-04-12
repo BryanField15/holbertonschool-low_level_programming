@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 	dest_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (dest_fd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit (99);
 	}
 
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 		write_bytes = write(dest_fd, buffer, read_bytes);
 		if (write_bytes == -1 || read_bytes != write_bytes)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't write to file %s\n", argv[2]);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit (99);
 		}
 		read_bytes = read(src_fd, buffer, BYTES);
