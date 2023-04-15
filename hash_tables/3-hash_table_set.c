@@ -8,6 +8,8 @@
 
 hash_node_t *make_node(const char *key, const char *value)
 {
+	hash_node_t *new_node;
+
 	new_node = malloc(sizeof(*new_node));
 	if (new_node == NULL)
 	{
