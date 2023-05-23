@@ -14,7 +14,7 @@ void print_array(int *array, size_t start, size_t end)
 
 	i = start;
 
-	printf("Searching in array:");
+	printf("Searching in array: ");
 	while (i < end)
 	{
 		printf("%d, ", array[i]);
